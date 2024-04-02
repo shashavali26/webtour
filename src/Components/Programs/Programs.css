@@ -1,0 +1,44 @@
+.progarm1 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    display: block;
+}
+.Programs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 0;
+    overflow-x: hidden;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: relative;
+}
+.caps{
+    border-radius: 10px;
+    position: relative;
+    top:20px;
+    
+}
+.caps img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+.caps p{
+    position: relative;
+    left: 90px;
+    display: block;
+    font-size: 30px;
+    color:rgb(19, 43, 64);
+    font-weight: 400;
+    bottom:50px;
+}
+@media (max-width:1114px){
+    .Programs{
+        flex-wrap: wrap;
+    }
+    .icon{
+     padding-bottom: 20px;
+}
+}

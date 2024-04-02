@@ -1,0 +1,65 @@
+.ccimg{
+    width: 50px;
+    height: 50px;
+}
+.contact h3,.para{
+    position: relative;
+    left: 30px;
+    display: block;
+    margin: 10px;
+    font-size: larger;
+}
+.contact ul{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.contact li{
+    font-size: larger;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+.form input{
+    display: block;
+    padding: 5px;
+    margin: 10px;
+
+}
+.form label{
+    font-size: medium;
+    font-style: oblique;
+}
+.btn5{
+    border-radius: 40px;
+    outline: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn5:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+.para{
+    margin-top: 10px;
+}
+.form h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(213, 138, 47);
+}
+.contact h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(213, 138, 47);
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+@media (max-width:750px){
+    .contact{
+        flex-wrap: wrap;
+        margin: 40px;
+    }
+    .form{
+        margin: 50px;
+    }
+}
+
